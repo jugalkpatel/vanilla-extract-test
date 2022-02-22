@@ -1,0 +1,23 @@
+---
+// Component Imports
+import { AttrSelector,IdSelector, TypeSelector, GlobalStyles,ClassSelector, DifferentName, NthChild} from "../components"
+
+let title = 'My Astro Site';
+---
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>{title}</title>
+
+	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+</head>
+<body>
+	<AttrSelector client:visible />
+	<IdSelector />
+	<TypeSelector />
+	<ClassSelector />
+	<DifferentName />
+	<NthChild />
+</body>
+</html>
